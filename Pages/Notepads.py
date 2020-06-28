@@ -9,6 +9,8 @@ class NotePage:
 
     def __init__(self):
         self.app = Application()
+        self.check_before = None
+        self.check_after = None
 
     def kill_app(self):
         self.app.kill(soft=True)
